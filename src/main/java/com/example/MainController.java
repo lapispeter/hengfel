@@ -28,7 +28,7 @@ public class MainController {
 
         Double area= Henger.calcArea(sugar, magassag);
         areaField.setText(area.toString());
-        //Storage.writeContent(area.toString());
+        Storage.writeContent(area.toString());
     }
 
 }
