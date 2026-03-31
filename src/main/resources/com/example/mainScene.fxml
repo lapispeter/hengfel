@@ -15,7 +15,7 @@
          </font>
       </Label>
       <Label layoutX="69.0" layoutY="112.0" text="Sugár" />
-      <Label layoutX="69.0" layoutY="165.0" text="Magasság" />
+      <Label layoutX="69.0" layoutY="165.0" text="Hosszúság" />
       <Label layoutX="69.0" layoutY="268.0" text="A henger felszine" />
       <Label layoutX="420.0" layoutY="346.0" prefHeight="25.0" prefWidth="143.0" text="Lapis Péter II-E 2026-03-21" />
       <TextField fx:id="sugarField" layoutX="130.0" layoutY="108.0" />
