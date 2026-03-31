@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" />
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.MainController">
+   <children>
+      <Label layoutX="92.0" layoutY="33.0" text="Kör alapú henger feszinének számolása">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="69.0" layoutY="112.0" text="Sugár" />
+      <Label layoutX="69.0" layoutY="165.0" text="Magasság" />
+      <Label layoutX="69.0" layoutY="268.0" text="A henger felszine" />
+      <Label layoutX="393.0" layoutY="320.0" prefHeight="25.0" prefWidth="143.0" text="Lapis Péter II-E 2026-03-21" />
+      <TextField fx:id="sugarField" layoutX="130.0" layoutY="108.0" />
+      <TextField fx:id="magassagField" layoutX="130.0" layoutY="161.0" />
+      <TextField fx:id="areaField" layoutX="183.0" layoutY="264.0" />
+      <Button layoutX="177.0" layoutY="216.0" mnemonicParsing="false" onAction="#onClickCalcButton" text="Számol" />
+   </children>
+</Pane>
